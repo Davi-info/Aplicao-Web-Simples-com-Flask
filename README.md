@@ -1,7 +1,5 @@
 Protótipo Funcional de uma Aplicação Web Simples com Flask
 
-Protótipo Funcional de uma Aplicação Web Simples com Flask
-
 # Descrição do Projeto
 O ShoPI é um sistema de gerenciamento para pequenos comércios, desenvolvido em Flask (Python), que permite o cadastro e gerenciamento de clientes e produtos. O sistema oferece uma interface web intuitiva para realizar operações CRUD (Create, Read, Update, Delete) sobre esses dados.
 
