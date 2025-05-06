@@ -31,12 +31,43 @@ Edição de produtos: Atualização dos dados dos produtos existentes
 
 Exclusão de produtos: Remoção de produtos do sistema
 
-Validação de dados: Verificação dos campos antes do cadastro/atualização
+# Outras Funcionalidades
+- Validação de campos obrigatórios e formatos de entrada (e.g., e-mail, números).
+- Mensagens de feedback para o usuário (sucesso ou erro).
+- Interface estilizada com CSS para uma melhor experiência do usuário.
 
-# Tecnologias Utilizadas
+## Estrutura do Projeto
+```
+ShoPI/
+├── app/
+│   └── controller.py # Lógica de controle (rotas e validações)			
+│   └── model.py # Modelos de dados (Clientes e Produtos)            
+│   └── view.py # Configuração das rotas da aplicação            
+│   └── instance/
+
+├── static/
+│   └── css/                # Arquivos de estilo CSS
+
+├── Templates/              # Templates HTML para renderização 
+
+├── venv/ # Armazena o ambiente virtual do Python, isolando as dependências do projeto para evitar conflitos com outras aplicações
+
+├── db.py # Configuração do SQLAlchemy	
+             
+├── main.py  # Arquivo principal para execução do projeto
+│  	
+└── README.md  # Documentação do projeto
+
+
+# Tecnologias Utilizadas 
 Backend: Python com Flask
 
+Banco de Dados: SQLite
+
 Frontend: HTML5, CSS3
+
+ORM: SQLAlchemy
+
 
 # Passos para Execução
 
@@ -68,12 +99,12 @@ db.create_all()
 
 # Execute a aplicação:
 
-python run.py
+python main.py
 
 # Acesse a aplicação:
 Abra seu navegador e acesse:
 
-http://localhost:5000
+http://127.0.0.1:5000
 
 # Primeiros Passos
 Ao acessar a aplicação, você verá a página inicial com opções para:
