@@ -57,7 +57,7 @@ ShoPI/
 ├── main.py  # Arquivo principal para execução do projeto
 │  	
 └── README.md  # Documentação do projeto
-
+```
 
 # Tecnologias Utilizadas 
 Backend: Python com Flask
